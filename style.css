@@ -278,3 +278,117 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+
+
+.text-numbers {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text-numbers h2 {
+    width: 480px;
+    padding-right: 30px;
+    font-weight: 600;
+    color: #24371E;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+.text-numbers p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #24371E;
+}
+
+.text-numbers svg {
+    cursor: pointer;
+}
+
+.slider-section {
+    margin-bottom: 75px;
+}
+
+.slider-numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-numbers img {
+    width: 378px;
+    height: 342px;
+    object-fit: cover   ;
+}
+
+
+.slider-numbers a:hover {
+    background-color: #1E4D0F;
+    cursor: pointer;
+    color: white;
+}
+
+.slider-numbers h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #24371E;
+    margin-top: 30px;
+}
+
+.slider-numbers p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #24371E;
+    margin-top: 10px;
+}
+
+.svg-content {
+    display: flex;
+    gap: 12px;
+}
+
+.button-reserve-slider {
+    background-color: #285B18;
+    padding: 16px 30px;
+    color: white;
+    border: 1px solid #285B18;
+    font-size: 16px;
+    line-height: 150%;
+    transition: 0.3s;
+}
+
+.button-reserve-slider:hover {
+    background-color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #24371E;
+    border: 1px solid #285B18;
+}
+
+.sliner-numbers-description-button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px ;
+}
+
+
+.section-two {
+background-image: url(Image/Rectangle\ 150.png);
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+background-size: cover;
+margin: 0px;
+margin-bottom: 150px;
+}
