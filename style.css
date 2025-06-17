@@ -17,9 +17,9 @@
 }
 
 .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .content h1 {
@@ -43,27 +43,39 @@
     background-color: #285B18;
     padding: 16px 30px;
     color: white;
-    border: 0;
+    border: 1px solid #285B18;
     font-size: 16px;
     line-height: 150%;
+    transition: 0.3s;
+}
+
+.button-reserve:hover {
+    background-color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #24371E;
+    border: 1px solid #285B18;
 }
 
 .text-one {
     display: flex;
     margin-bottom: 70px;
+    justify-content: space-between;
 }
 
-.text-one h1 {
+.text-one h2 {
     width: 480px;
     padding-right: 30px;
     font-weight: 600;
     color: #24371E;
     font-size: 36px;
     line-height: 100%;
+    text-transform: uppercase;
+    line-height: 150%;
 }
 
 .text-one p {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
@@ -82,6 +94,12 @@
     flex-direction: column;
 }
 
+.slider-single img {
+    width: 378px;
+    height: 462px;
+    object-fit: cover   ;
+}
+
 .slider-single a {
     margin-top: 30px;
     border: 1px solid;
@@ -89,12 +107,18 @@
     color: #1E4D0F;
     padding: 15px 111px;
     text-align: center;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
+    transition: 0.3s;
 }
 
+.slider-single a:hover {
+    background-color: #1E4D0F;
+    cursor: pointer;
+    color: white;
+}
 
 .content-one {
     display: flex;
@@ -111,16 +135,17 @@
 }
 
 
-.text-button h1 {
+.text-button h2 {
     font-weight: 600;
     color: #24371E;
     font-size: 36px;
     line-height: 150%;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .text-button p {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
@@ -143,16 +168,17 @@
     text-align: right;
 }
 
-.text-button-reverse h1 {
+.text-button-reverse h2 {
     font-weight: 600;
     color: #24371E;
     font-size: 36px;
     line-height: 150%;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .text-button-reverse p {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
@@ -173,12 +199,82 @@
     padding: 15px 36px;
     text-align: center;
     font-weight: 400px;
+    border: 1px solid #285B18;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
+    transition: 0.3s;
+}
+
+.more-details:hover {
+    background-color: #1E4D0F;
+    transition: 0.3s;
+    color: white;
+    border: 1px solid #285B18;
 }
 
 
+.text-two {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.text-two h2 {
+    width: 480px;
+    padding-right: 30px;
+    font-weight: 600;
+    color: #24371E;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+.text-two p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #24371E;
+}
 
 
+.hotels {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 150px;
+}
 
+.photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo img {
+    width: 378px;
+    height: 388px;
+    object-fit: cover   ;
+}
+
+.photo a {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.photo svg {
+    color: #24371E;
+    cursor: pointer;
+}
+
+.transition {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
