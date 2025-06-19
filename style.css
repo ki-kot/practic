@@ -50,7 +50,7 @@
 }
 
 .button-reserve:hover {
-    background-color: #ffffff;
+    background: #1E4D0F;
     transition: 0.3s;
     cursor: pointer;
     color: #24371E;
@@ -273,7 +273,6 @@
 }
 
 .transition {
-    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -366,10 +365,10 @@
 }
 
 .button-reserve-slider:hover {
-    background-color: #ffffff;
+    background-color: #1E4D0F;
     transition: 0.3s;
     cursor: pointer;
-    color: #24371E;
+    color: white;
     border: 1px solid #285B18;
 }
 
@@ -382,13 +381,230 @@
 
 
 .section-two {
-background-image: url(Image/Rectangle\ 150.png);
-display: flex;
-justify-content: center;
-flex-direction: column;
-height: 100vh;
-width: 100%;
-background-size: cover;
-margin: 0px;
-margin-bottom: 150px;
+    background-image: url(Image/Rectangle\ 150.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+.section-reviews {
+    height: 100vh;
+    margin: 0px;
+    padding-top: 150px;
+    background: #f2f2f2;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+.section-reviews .container {
+    background: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews {
+    font-weight: 600;
+    color: #24371E;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+
+.reviews-content {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.reviews-text {
+    background: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+
+.reviews-text img {
+    width: 50px;
+    height: 50px;
+}
+
+.reviews-text h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #24371E;
+    margin-left: 20px;
+}
+
+.reviews-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-top: 34px;
+    color: #24371E;
+}
+
+.reviews-text a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #24371E;
+}
+
+.look {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 30px;
+    align-items: center;
+}
+
+.look a {
+    color: #1E4D0F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-right: 5px;
+}
+
+.section-armoring {
+    background: #f2f2f2;
+}
+
+.payment {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    color: #24371E;
+    text-transform: uppercase;
+}
+
+.input-container {
+    border: 2px;
+    border-radius: 2px;
+    padding: 18px;
+    background: white;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #24371E;
+}
+
+input::placeholder {
+    color: #ccc;
+    font-weight: 400;
+}
+
+.content-payment {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section-booking {
+    background-color: #f2f2f2;
+}
+
+
+/* Заголовок на всю ширину */
+.title-main {
+    font-weight: 600;
+    color: #24371E;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 28px;
+}
+
+.booking-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Левая колонка */
+.booking-left {
+    flex: 1;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-block input {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid white;
+    font-size: 16px;
+    margin-bottom: 28px;
+    width: 582px;
+}
+
+
+.booking-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 18px 18px;
+    border: 1px solid white;
+    background: white;
+}
+
+.faq-item a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #24371E;
 }
