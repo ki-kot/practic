@@ -362,6 +362,7 @@
     font-size: 16px;
     line-height: 150%;
     transition: 0.3s;
+    text-align: center
 }
 
 .button-reserve-slider:hover {
