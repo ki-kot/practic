@@ -1,0 +1,58 @@
+
+@media (max-width: 768px) {
+        
+
+
+/* global */
+
+    section {
+        padding: 0px 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        max-width: 100%;
+        padding: 0px !important; 
+    }
+
+
+    a {
+        max-width: 100%;
+        padding: 20px 0px !important;
+        text-align: center;
+        width: 100%;
+    }
+/*  */
+
+/* section-1 */
+
+
+
+.content h1 {
+    font-size: 30px ;
+    margin-bottom: 15px
+}
+
+.content p {
+    font-size: 20px;
+}
+
+/*  */
+
+/* section-2 */
+
+    .text-one {
+        flex-direction: column;
+    }
+
+    .text-one h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .slider {
+        overflow: scroll;
+    }
+
+/*  */
+
+}
