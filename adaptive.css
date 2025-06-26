@@ -7,6 +7,7 @@
 
     section {
         padding: 0px 20px;
+        width: 100%;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -14,27 +15,47 @@
         padding: 0px !important; 
     }
 
+    h1 {
+        font-size: 40px !important;
+    }
+    
+    h2 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    p {
+        font-size: 20px !important;
+        margin-bottom: 30px !important;
+    }
 
     a {
         max-width: 100%;
         padding: 20px 0px !important;
         text-align: center;
         width: 100%;
+        text-transform: uppercase;
     }
+
+    .container {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
 /*  */
 
 /* section-1 */
 
 
 
-.content h1 {
-    font-size: 30px ;
-    margin-bottom: 15px
-}
-
-.content p {
-    font-size: 20px;
-}
 
 /*  */
 
@@ -46,11 +67,111 @@
 
     .text-one h2 {
         margin-bottom: 20px;
-        font-size: 30px;
     }
 
     .slider {
-        overflow: scroll;
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+/*  */
+
+/* section-3 */
+
+    .content-one {
+        flex-direction: column;
+    }
+    
+    .description-menu {
+        margin-bottom: 30px;
+    }
+
+    .text-button {
+        margin-bottom: 50px;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+/*  */
+
+/* section-4 */
+
+.button {
+    width: 100%;
+}
+/*  */
+
+
+/* section-5 */
+
+    .text-two {
+        flex-direction: column;
+    }
+
+    .hotels {
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+/*  */
+
+/* section-6 */
+
+    .sliner-numbers-description-button {
+        gap: 30px;
+    }
+
+/*  */
+
+/* section-7 */
+
+    .hiden {
+        display: none;
+    }
+
+/*  */
+
+
+/* section-8 */
+
+    .reviews-content {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section-reviews {
+        background: white;
+    }
+
+
+
+/* section-9 */
+
+    .booking-wrapper {
+        flex-direction: column;
+    }
+
+    .input-block input {
+        width: 100% !important;
+        padding: 18px 0px;
+    }
+
+/*  */
+
+
+/* footer */
+
+    .footer {
+        flex-direction: column !important;
+        padding: 10px 20px;
+        width: 100%;
     }
 
 /*  */

@@ -47,11 +47,10 @@
     padding-bottom: 100px;
 }
 
-.container-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto;
     gap: 30px;
 }
 
@@ -540,14 +539,12 @@ input[type="email"] {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
     background-size: cover;
     margin: 0px;
 }
 
 .section-reviews {
-    height: 100vh;
     margin: 0px;
     padding-top: 150px;
     background: #f2f2f2;
@@ -732,7 +729,6 @@ input::placeholder {
 
 
 .input-block input {
-    width: 100%;
     padding: 18px;
     border: 1px solid white;
     font-size: 16px;
